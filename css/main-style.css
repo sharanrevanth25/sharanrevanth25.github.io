@@ -643,6 +643,7 @@ a#logo {
   margin-bottom: 0;
   font-size: 16px;
   margin-top: 0px;
+  color:#000;
 }
 .portfolio-item .thumb-inner p {
   opacity: 0;
@@ -887,4 +888,20 @@ textarea.form-control {
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
+}
+@media screen and (max-width:340px){
+  .mobile-alignment{
+    margin-left:20px; 
+  }
+  .logo {
+    width: 200px;
+    height: 75px;
+}
+.social-icons{
+  padding-bottom:135px;
+}
+.testimonials-section .item{
+  padding-left:0px;
+  padding-right:0px;
+}
 }
